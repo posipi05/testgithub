@@ -8,7 +8,7 @@
 		$triangle=$triangle."<p>";
 		for($j=1;$j<=$i;$j++)
 		{
-			$triangle=$triangle."*";
+			$triangle=$triangle."o";
 		}
 		$triangle=$triangle."</p>";
 	}
