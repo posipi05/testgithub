@@ -12,3 +12,14 @@ function phpfaitMoiUntriangle()
 		}
 	});
 }
+
+function changeCouleurTriangle(couleur)
+{
+	$('#triangle').css('color',couleur.value);
+}
+
+$(document).ready(function(){
+		$('input').change(function(){
+		changeCouleurTriangle(this);
+	});
+});
